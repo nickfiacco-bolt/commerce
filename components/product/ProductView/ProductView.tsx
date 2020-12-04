@@ -42,6 +42,7 @@ const ProductView: FC<Props> = ({ product }) => {
     getCurrentVariant(product, choices) || product.variants.edges?.[0]
 
   const addToCart = async () => {
+    console.log("helloooo");
     setLoading(true)
     try {
       await addItem({
