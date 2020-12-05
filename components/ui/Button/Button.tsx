@@ -50,6 +50,7 @@ const Button: React.FC<ButtonProps> = forwardRef((props, buttonRef) => {
     <Component
       aria-pressed={active}
       data-variant={variant}
+      onClick={onClick}
       ref={mergeRefs([ref, buttonRef])}
       className={rootClassName}
       disabled={disabled}
