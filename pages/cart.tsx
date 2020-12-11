@@ -137,8 +137,8 @@ export default function Cart() {
                   Continue Shopping
                 </Button>
               ) : (
-                <div class="bolt-button-wrapper">
-                    <div class="bolt-checkout-button bolt-multi-step-checkout" style="float:right"></div>
+                <div className="bolt-button-wrapper">
+                    <div className="bolt-checkout-button bolt-multi-step-checkout"></div>
                 </div>
                )}
             </div>
