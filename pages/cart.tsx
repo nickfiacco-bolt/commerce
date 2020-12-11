@@ -42,6 +42,13 @@ export default function Cart() {
 
   return (
     <div className="grid lg:grid-cols-12">
+    <script
+      id="bolt-connect"
+      type="text/javascript"
+      src="https://connect-sandbox.bolt.com/connect-bigcommerce.js"
+      data-publishable-key="TKC9axPCXxnF.qLr0nyPcvIVb.af1ae00e5b8c0937e217dcdb0d9f1a5c3206900b5311cd9e58daea3558a500b8"
+      data-shopping-cart-id="BigCommerce">
+    </script>
       <div className="lg:col-span-8">
         {isEmpty ? (
           <div className="flex-1 px-12 py-24 flex flex-col justify-center items-center ">
@@ -130,10 +137,10 @@ export default function Cart() {
                   Continue Shopping
                 </Button>
               ) : (
-                <Button href="/checkout" Component="a" width="100%">
-                  Proceed to Checkout
-                </Button>
-              )}
+                <div class="bolt-button-wrapper">
+                    <div class="bolt-checkout-button bolt-multi-step-checkout" style="float:right"></div>
+                </div>
+               )}
             </div>
           </div>
         </div>
