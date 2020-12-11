@@ -45,8 +45,8 @@ export default function Cart() {
     <script
       id="bolt-connect"
       type="text/javascript"
-      src="https://connect-sandbox.bolt.com/connect-bigcommerce.js"
-      data-publishable-key="TKC9axPCXxnF.qLr0nyPcvIVb.af1ae00e5b8c0937e217dcdb0d9f1a5c3206900b5311cd9e58daea3558a500b8"
+      src="https://connect.nick.dev.bolt.me/connect-bigcommerce.js"
+      data-publishable-key="FK4JfTr8rRTJ.S46AZs25wuez.961bc9848e322bc23ff561dee4884590ca054ad288f8a329bf817927a4e86aef"
       data-shopping-cart-id="BigCommerce">
     </script>
       <div className="lg:col-span-8">
